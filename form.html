@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Info</title>
+    <script src="from3.js" defer></script>
+    <link rel="stylesheet" href="from3.css">
+</head>
+
+<body>
+    <!-- personal info contanier -->
+    <div class="personal_info">
+        <div>
+            <h2>Personal Information</h2>
+        </div>
+        
+        <div class="i1">
+            First_name : <input type="text" id="fn">
+        </div>
+        <div class="i1">
+            Last_name : <input type="text" id="ln">
+        </div>
+        <div class="i1">
+            Contact_No : <input type="text" id="cn">
+        </div>
+        <div class="i1">
+            Location : <input type="text" id="loc">
+        </div>
+        <div class="i1">
+            Gender : male <input type="radio" name="gen" class="radiooption" value="male">
+            female <input type="radio" name="gen" class="radiooption" value="female">
+        </div>
+        <button id="bt1" onclick="personal_info()">Submit</button>
+    </div>
+
+    <!-- Disaply personal details -->
+    <div class="personal_info_disp" style="display: none;">
+        <p class="res" id="p"></p>
+        <p class="res"></p>
+        <p class="res"></p>
+        <p class="res"></p>
+        <p class="res"></p>
+        <p class="res"></p>
+        <button class="res" onclick="callparentform()">next</button>
+    </div>
+
+    <!-- Parent info continer -->
+    <div class="parent_info" style="display: none;">
+        <div>
+            <h2>Parent Information</h2><br><br>
+        </div>
+        <div class="i1">
+            Father Name : <input type="text" id="fatherName"><br><br>
+        </div>
+        <div class="i1">
+            Mother Name : <input type="text" id="motherName"><br><br>
+        </div>
+        <div class="i1">
+            Contact No : <input type="text" id="parentContact"><br><br>
+        </div>
+        <div class="i1">
+            Location : <input type="text" id="parentLoc"><br><br>
+        </div>
+        <div class="i1">
+            Parent Occupation : <input type="text" id="parentOcc"><br><br>
+        </div>
+        <button id="bt2" onclick="parent_info()">Submit</button>
+    </div>
+
+    <!-- Disaply parent details -->
+    <div class="parent_info_disp" style="display: none;">
+        <p class="pdisp" id="q"></p>
+        <p class="pdisp"></p>
+        <p class="pdisp"></p>
+        <p class="pdisp"></p>
+        <p class="pdisp"></p>
+        <p class="pdisp"></p>
+        <button class="res" onclick="callEducationform()">next</button>
+    </div>
+
+    <!-- Education info container -->
+    <div class="education_info" style="display: none;">
+        <div>
+            <h2>Education Information</h2><br><br>
+        </div>
+        <div class="i1">
+            Highest Qualification :
+            <input type="text" id="qualification"><br><br>
+        </div>
+        <div class="i1">
+            School / College Name :
+            <input type="text" id="schoolCollege"><br><br>
+        </div>
+        <div class="i1">
+            Year of Passing :
+            <input type="text" id="passingYear"><br><br>
+        </div>
+        <div class="i1">
+            Percentage / GPA :
+            <input type="text" id="percentage"><br><br>
+        </div>
+        <button id="eduSubmit" onclick="education_info()">Submit</button>
+    </div>
+
+    <!-- Display Education details -->
+    <div class="education_info_disp" style="display: none;">
+        <p class="edisp" id="ed1"></p>
+        <p class="edisp"></p>
+        <p class="edisp"></p>
+        <p class="edisp"></p>
+        <span class="edisp" id="thank" ></span>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,162 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+.personal_info{
+    h2{
+        text-transform: uppercase;
+        color: rgb(192, 61, 243);
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 70px;
+    margin-left: 500px;
+    margin-top: 150px;
+    width: fit-content;
+
+    .i1{
+        font-size: 20px;
+        color: rgb(24, 24, 19);
+    }
+
+    #bt1{
+        width: fit-content;
+        margin-left: 130px;
+        padding: 6px;
+        border-radius: 3px;
+        background-color: rgb(182, 170, 170);
+        color: blue;
+    }
+}
+.personal_info_disp{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 70px;
+    margin-left: 500px;
+    margin-top: 150px;
+    width: fit-content;
+    .res{
+        font-size: 20px;
+        text-transform: capitalize;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #p{
+        color: tomato;
+        font-size: 25px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+}
+
+.parent_info{
+    h2{
+        text-transform: uppercase;
+        color: rgb(228, 173, 22);
+        font-family:cursive;
+    }
+    border: 1px solid black;
+    padding: 50px;
+    margin-left: 500px;
+    margin-top: 150px;
+    width: fit-content;
+
+    .i1{
+        font-size: 20px;
+        color: rgb(24, 24, 19);
+    }
+
+    #bt2{
+        width: fit-content;
+        margin-left: 130px;
+        padding: 6px;
+        border-radius: 3px;
+        background-color: rgb(182, 170, 170);
+        color: blue;
+    }
+}
+
+.parent_info_disp{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 50px;
+    margin-left: 500px;
+    margin-top: 150px;
+    width: fit-content;
+    .pdisp{
+        font-size: 20px;
+        text-transform: capitalize;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .res{
+        color: tomato;
+        font-size: 20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+
+}
+
+.education_info{
+    h2{
+        text-transform: uppercase;
+        color: rgb(134, 6, 207);
+        font-family:cursive;
+    }
+    border: 1px solid black;
+    padding: 50px;
+    margin-left: 500px;
+    margin-top: 150px;
+    width: fit-content;
+
+    .i1{
+        font-size: 20px;
+        color: rgb(24, 24, 19);
+    }
+
+    #eduSubmit{
+        width: fit-content;
+        margin-left: 130px;
+        padding: 6px;
+        border-radius: 3px;
+        background-color: rgb(182, 170, 170);
+        color: rgb(0, 162, 255);
+    }
+}
+
+
+.education_info_disp{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 50px;
+    margin-left: 300px;
+    margin-top: 160px;
+    width: fit-content;
+    .edisp{
+        font-size: 20px;
+        text-transform: capitalize;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #ed1{
+        color: tomato;
+        font-size: 25px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+    #thank{
+        font-size:30px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+}
