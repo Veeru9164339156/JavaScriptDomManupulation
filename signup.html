@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up</title>
+</head>
+<body>
+    <fieldset>
+        <label for="firstname">Firstname : </label>
+        <input type="text" name="" id=""  placeholder="veeresh"><br><br>
+        <label for="lastname">Lastname : </label>
+        <input type="text" name="" id=""  placeholder="K C"><br><br>
+        <label for="username">Username : </label>
+        <input type="text" name="" id=""  placeholder="must start with @ ex:@veeresh"><br><br>
+        <label for="password">Password : </label>
+        <input type="text" name="" id=""  placeholder="combination of lettres, numbers, special charracters"><br><br>
+        <button onclick="submitData()">Create account</button>
+
+        <section>
+            <h1>Output</h1>
+            <p>First name u enetered is: <span></span></p>
+            <p>Last name u enetered is: <span></span></p>
+            <p>Username u enetered is: <span></span></p>
+            <p>Password u enetered is: <span></span></p>
+            <h3><input type="checkbox" name="" id="">click below to process the create account</h3>
+        </section>
+        <p>If u are an existing user <a href="login.html">click here to login</a></p>
+        <p>Account create Sucuusfully <a href="login.html"><button>Login</button></a></p>
+    </fieldset>
+
+    <script>
+        let firstname=document.getElementsByTagName("input")[0];
+        let lastname=document.getElementsByTagName("input")[1];
+        let user= document.getElementsByTagName("input")[2];
+        let pass= document.getElementsByTagName("input")[3];
+
+        function submitData(){
+            document.getElementsByTagName("span")[0].innerText=firstname.value;
+            document.getElementsByTagName("span")[1].innerText=lastname.value;
+            document.getElementsByTagName("span")[2].innerText=user.value;
+            document.getElementsByTagName("span")[3].innerText=pass.value;
+        }
+            </script>
+</body>
+</html>
